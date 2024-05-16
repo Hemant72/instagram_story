@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     return ScreenUtilInit(
         designSize: const Size(360, 690),
-        minTextAdapt: true,
+        minTextAdapt: false,
         splitScreenMode: true,
         builder: (BuildContext context, Widget? child) {
           return AnnotatedRegion<SystemUiOverlayStyle>(
